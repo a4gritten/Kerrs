@@ -1,0 +1,66 @@
+/* Hero section styles */
+
+.tree-section {
+    background-image: url(../images/backgrounds/river-tree.jpg);
+    padding: 100px;
+    height: 120px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tree-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #414d6a;
+    color: #cbcbcb;
+    width: 270px;
+    border-radius: 2px;
+}
+
+.tree-section > .top-heading h1 {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 200;
+}
+
+.tree-section > .bottom-heading {
+    background-color: #9dc8e4;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 170px;
+    border-radius: 2px;
+}
+
+.tree-section > .bottom-heading h3 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+/* Features section styles */
+.features-section {
+    height: 400px;
+    background-color: #06173f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    font-family: 'Abhaya Libre', serif;
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
