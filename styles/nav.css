@@ -1,15 +1,12 @@
 
 
-/* Commonen styles */
-body {
-    margin: 0px;
-    font-family: 'Abhaya Libre', serif;
-}
+/* Common styles */
+
 
 /* Common nav styles */
 .navigation-wrapper {
     height: 250px;
-    background-color: #414d6a;
+    background-color: #3a5db3;
     color: #cbcbcb;
     /* Flex box container */
     display: flex;
@@ -43,7 +40,7 @@ body {
 }
 
 .links-wrapper > .nav-link {
-    width: 70px;
+    width: 100%;
     text-align: center;
 
 }
