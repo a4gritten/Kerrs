@@ -8,7 +8,7 @@
 .skewed-header > .skewed-header-wrapper {
 height: 190px;
 width: 100%;
-background-color: #414d6a;
+background-color: #3a5db3;
 color: #cbcbcb;
 display: flex;
 justify-content: space-around;
@@ -29,20 +29,22 @@ padding: 60px 100px;
     color: #11122b;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
-    width: 175px;
+    width: 225px;
     /* padding: 10px; */
     position: relative;
     left: -100px;
 }
 
 .skewed-header-content > .links-wrapper {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 2.1fr 1.5fr;
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 500px;
+    width: 900px;
 }
 
 .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a {
-    font-size: 30px;
+    font-size: 23px;
 }
