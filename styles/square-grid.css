@@ -29,5 +29,10 @@
 }
 
 .square > .square-text-wrapper h1 {
-    color: #cea135;
+    color: #3a5db3;
+}
+
+.square > .square-text-wrapper p {
+    letter-spacing: 1.1px;
+    line-height: 20px;
 }
