@@ -6,6 +6,7 @@
 
 .page-container > .content-wrapper {
     width: 1000px;
+    justify-content: center;
 }
 
 .page-container > .content-wrapper > #chef {
@@ -16,6 +17,31 @@
 }
 
 .page-container > .content-wrapper p {
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+}
+
+.page-container > .content-wrapper > .row {
+    display: flex;
+    justify-content: space-AROUND;
+}
+
+.page-container > .content-wrapper > .row h1 {
+    font-size: 20px;
+}
+
+.page-container > .content-wrapper > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.page-container > .content-wrapper > .text p {
     line-height: 30px;
+}
+
+.page-container > .content-wrapper > .text a {
+    text-decoration: none;
+    color: #000000;
 }
