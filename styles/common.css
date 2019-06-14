@@ -1,14 +1,22 @@
 /* Commonen styles */
+
+html {
+    overflow-x: initial !important;
+}
+
 body {
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abhaya Libre', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Abhaya Libre', serif;
 }
 
-html,body
-{
-    overflow-x: hidden; 
+
+
+body {
+    margin: 0px;
+    font-family: 'Abhaya Libre', serif;
 }
+
